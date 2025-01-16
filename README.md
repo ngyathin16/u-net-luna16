@@ -101,12 +101,6 @@ This repository contains a 3D U-Net implementation for the LUNA16 dataset, aimed
 | Dice Coefficient    | 87.65% |
 | IoU                 | 79.34% |
 
-### Visual Results
-| Ground Truth Mask         | Predicted Mask          |
-|---------------------------|-------------------------|
-| ![ground_truth](images/gt_mask.png) | ![predicted](images/pred_mask.png) |
-
-
 ## Acknowledgments
 
 - **LUNA16 Dataset**: Dataset provided by the [LUNA16 Challenge](https://luna16.grand-challenge.org/).
