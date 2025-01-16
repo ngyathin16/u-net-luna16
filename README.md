@@ -39,21 +39,20 @@ Preprocessing steps include:
 
 U-net-paper/
 ├── annotations/
-│   ├── annotations.csv                # Nodule annotation file
+│ ├── annotations.csv # Nodule annotation file
 ├── data/
-│   ├── masks/                         # Directory for preprocessed masks
-│   ├── processed_data/                # Preprocessed CT scans and masks
-│   ├── raw/                           # Original LUNA16 CT scans
+│ ├── masks/ # Directory for preprocessed masks
+│ ├── processed_data/ # Preprocessed CT scans and masks
+│ ├── raw/ # Original LUNA16 CT scans
 ├── scripts/
-│   ├── augmentations/                 # Data augmentation scripts
-│   ├── dataset/                       # Dataset loading and preprocessing
-│   ├── unet_model.py                  # U-Net 3D implementation
-│   ├── train_unet.py                  # Training script
-│   ├── evaluationScript/              # Evaluation metrics (e.g., Dice Coefficient)
-├── venv/                              # Virtual environment (optional)
-├── requirements.txt                   # Required Python packages
-├── README.md                          # Project documentation
-
+│ ├── augmentations/ # Data augmentation scripts
+│ ├── dataset/ # Dataset loading and preprocessing
+│ ├── unet_model.py # U-Net 3D implementation
+│ ├── train_unet.py # Training script
+│ ├── evaluationScript/ # Evaluation metrics (e.g., Dice Coefficient)
+├── venv/ # Virtual environment (optional)
+├── requirements.txt # Required Python packages
+├── README.md # Project documentation
 # U-Net for LUNA16
 
 This repository contains a 3D U-Net implementation for the LUNA16 dataset, aimed at biomedical image segmentation.
